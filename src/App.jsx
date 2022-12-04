@@ -24,7 +24,6 @@ function App() {
 
 
 
-    URL = `https://rickandmortyapi.com/api/location/${random}`
 
     axios.get(URL)
       .then(res => {
