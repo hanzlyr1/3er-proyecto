@@ -23,7 +23,6 @@ function App() {
     }
 
 
-    const random = Math.ceil(Math.random() * 126) + 1
 
     URL = `https://rickandmortyapi.com/api/location/${random}`
 
